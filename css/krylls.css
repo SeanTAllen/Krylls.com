@@ -1,0 +1,26 @@
+body
+{
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.menu_item
+{
+  text-align: center;
+  border: 1px solid black;
+}
+
+#content
+{
+  padding: 30px 60px 30px 60px;
+}
+
+#footer
+{
+  margin: 10px 0px 10px 0px;
+  padding: 20px 80px 20px 80px;
+  overflow: visible;
+  z-index: 10;
+  border-top: 1px solid #E0E0E0;
+  font-size: 80%;
+}

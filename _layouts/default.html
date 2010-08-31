@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+  <title>Krylls: {{ page.title }}</title> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print">	
+  <!--[if lt IE 8]>
+  <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
+  <![endif]-->
+  <link href="/css/krylls.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="container">
+    <div class="span-24 last">
+      <div id="header">
+        <img src="/images/western-logo.png" alt="Krylls" />
+      </div>
+    </div>
+    <div class="span-8">
+      <div class="menu_item"><a href="http://music.krylls.com/" target="_blank">Music</a></div>
+
+    </div>
+    <div class="span-8">
+      <div class="menu_item"><a href="/shows.html">Shows</a></div>
+    </div>
+    <div class="span-8 last">
+      <div class="menu_item"><a href="/news.html">News</a></div>
+    </div>    
+    <div class="span-24 last">
+      <div id="content">{{ content }}</div>
+    </div>
+    <div class="span-24 last">
+      <div id="footer">krylls@krylls.com</div>
+    </div>
+  </div>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-7291775-1']);
+    _gaq.push(['_setDomainName', '.krylls.com']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+  </body>
+  </html>
