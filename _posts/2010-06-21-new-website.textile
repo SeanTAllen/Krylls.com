@@ -1,6 +1,8 @@
 ---
 title: New Website
 summary: Out with the old, In with the new.
+layout: news
+published: true
 ---
 
 Well folks, we have a new website finally. The decision was made to not bring over old content, so if you are looking for old news. Sorry, it isn't here. 
