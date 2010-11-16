@@ -30,13 +30,6 @@ body.bp {
   @include column(8, false);
 }
 
-.menu_item_x 
-{
-  text-align: center;
-//  border: 1px solid black;
-  @include column(8, true);
-}
-
 #header
 {
   @include column(24, false);
