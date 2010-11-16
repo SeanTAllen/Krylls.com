@@ -1,0 +1,61 @@
+// Import the non-default scaffolding module to help us get started.
+@import "blueprint/scaffolding";
+
+// This configuration will only apply the
+// blueprint styles to pages with a body class of "bp"
+// This makes it easier to have pages without blueprint styles
+// when you're using a single/combined stylesheet.
+
+body.bp {
+  @include blueprint-typography(true);
+  @include blueprint-utilities;
+  @include blueprint-debug;
+  @include blueprint-interaction; 
+  @include prepend-top(10px);
+}
+
+// Remove the scaffolding when you're ready to start doing visual design.
+// Or leave it in if you're happy with how blueprint looks out-of-the-box
+@include blueprint-scaffolding("body.bp");
+
+#container
+{  
+  @include container;
+}
+
+.menu_item 
+{
+  text-align: center;
+//  border: 1px solid black;
+  @include column(8, false);
+}
+
+.menu_item_x 
+{
+  text-align: center;
+//  border: 1px solid black;
+  @include column(8, true);
+}
+
+#header
+{
+  @include column(24, false);
+}
+
+#content 
+{
+  @include column(24, false);
+  padding: 30px 60px 30px 60px;
+}
+
+#footer 
+{
+  @include column(24, false);
+  @include prepend-top(10px);
+  @include append-bottom(10px);
+  padding: 20px 80px 20px 80px;
+  overflow: visible;
+  z-index: 10;
+  border-top: 1px solid #E0E0E0;
+  font-size: 80%;
+}

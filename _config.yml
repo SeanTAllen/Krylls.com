@@ -1,3 +1,4 @@
 permalink: /news/:year/:month/:day/:title.html
 exclude:
   - Rakefile
+  - config.rb
