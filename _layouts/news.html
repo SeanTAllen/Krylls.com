@@ -3,8 +3,8 @@ layout: default
 ---
 <div class="post">
   <div class="header">
-    <h3 class="title">{{ post.title }}</h3>
-    <span class="date">-- {{ post.date | date: "%b %d, %Y" }}</span>
+    <h3 class="title">{{ page.title }}</h3>
+    <span class="date">-- {{ page.date | date: "%b %d, %Y" }}</span>
   </div>
-  {{ post.content }}
+  {{ page.content }}
 </div>
