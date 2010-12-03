@@ -26,27 +26,32 @@ body.bp {
 .menu_item 
 {
   text-align: center;
-//  border: 1px solid black;
   @include column(8, false);
 }
 
 #header
 {
-  @include column(24, false);
+  @include column(24, true);
 }
 
 #content 
 {
-  @include column(24, false);
-  padding: 30px 60px 30px 60px;
+  @include column(22, false);
+  @include append(1);
+  @include prepend(1);
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #footer 
 {
-  @include column(24, false);
+  @include column(20, false);
   @include prepend-top(10px);
+  @include append(2);
+  @include prepend(2);
   @include append-bottom(10px);
-  padding: 20px 80px 20px 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   overflow: visible;
   z-index: 10;
   border-top: 1px solid #E0E0E0;
@@ -67,3 +72,4 @@ body.bp {
     margin: 0px 48px 12px 12px;
   }
 }
+
