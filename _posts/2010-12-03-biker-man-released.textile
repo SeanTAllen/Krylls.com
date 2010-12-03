@@ -1,6 +1,6 @@
 ---
 title: Biker Man Released
-summary: "Biker Man" single now available...
+summary: Biker Man single now available...
 layout: news
 published: true
 ---
